@@ -415,7 +415,7 @@ footer p{
     .about{
         flex-direction: column-reverse;
     }
-    .aboutimg{
+    .aboutimg img{
         width: 280px;
         margin-top: 4rem;
     }
@@ -438,6 +438,9 @@ footer p{
     }
     .contact form .input-box input{
         width: 100%;
+    }
+    .aboutimg img{ 
+        width:250px;
     }
 }@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Young+Serif&display=swap');
 *{

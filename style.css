@@ -409,14 +409,14 @@ footer p{
         font-size: 5rem;
     }
     .homeimg{
-        width: 70vw;
+        width: 280px;
         margin-top: 4rem;
     }
     .about{
         flex-direction: column-reverse;
     }
     .aboutimg{
-        width: 200px;
+        width: 280px;
         margin-top: 4rem;
     }
     .services h2 {
@@ -776,6 +776,7 @@ footer p{
     border-radius: 10px;
     display: block;
     color:rgb(228, 228, 248);
+
 }
 .FAQ:hover{
     cursor: pointer;

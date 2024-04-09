@@ -16,6 +16,8 @@ body{
     z-index: 999999999999999;
 }
 
+
+
 .bn632-hover {
     width: 160px;
     font-size: 16px;
@@ -54,8 +56,8 @@ body{
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
-    width:100%;
-    height:100%;
+    width:100vw;
+    height:98vh;
     padding:50px;
     background-color: #f5f5f5;
     box-shadow: 0 10px 20px #dbdbdb;
@@ -178,7 +180,12 @@ span{
 .buttons button:hover{
     background-color: #e29578;
 }
-
+@media (max-width:1024px) {
+    .item .content{
+        /* left: 30px; */
+        top: 75%;
+    }
+}
 @media (max-width:500px) {
     .buttons{
         left: 400px;

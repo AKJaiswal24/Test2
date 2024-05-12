@@ -1,21 +1,20 @@
+function convertToPDF() {
+    const fileInput = document.getElementById('fileInput');
+    const file = fileInput.files[0];
 
+    if (file) {
+        const reader = new FileReader();
 
-let menuIcon = document.querySelector('#menuicon');
-let navbar = document.querySelector('.menubar');
+        reader.onload = function(event) {
+            const text = event.target.result;
 
-menuIcon.onclick = () => {
-    menuIcon.classList.toggle('bx-x');
-    navbar.classList.toggle('active')
+            // Convert the file content to PDF using jsPDF library or other methods
+            // For simplicity, let's just log the file content to the console
+            console.log(text);
+        };
+
+        reader.readAsText(file);
+    } else {
+        alert('Please select a file to convert.');
+    }
 }
-
-
-
-
-
-
-
-
-
-
-    menuIcon.classList.remove('bx-x');
-    navbar.classList.remove('active')

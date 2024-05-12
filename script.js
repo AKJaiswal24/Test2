@@ -8,8 +8,9 @@ function convertToPDF() {
         reader.onload = function(event) {
             const text = event.target.result;
 
-         
-            console.log(text);
+            const doc = new jsPDF();
+            doc.text(text, 10, 10); // Adjust text position as needed
+            doc.save('converted_file.pdf');
         };
 
         reader.readAsText(file);

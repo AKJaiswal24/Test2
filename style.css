@@ -116,6 +116,12 @@ body{
     height:100%;
     box-shadow: none;
 }
+.item:nth-child(3){
+    left:60%;
+}
+.item:nth-child(4){
+    left:60%;
+}
 .item .content{
     position: absolute;
     top:60%;

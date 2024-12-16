@@ -116,19 +116,6 @@ body{
     height:100%;
     box-shadow: none;
 }
-.item:nth-child(3){
-    left:60%;
-}
-.item:nth-child(4){
-    left:calc(55% + 220px);
-}
-.item:nth-child(5){
-    left:calc(55% + 440px);
-}
-.item:nth-child(n+6){
-    left:calc(55% + 660px);
-    opacity: 0;
-}
 .item .content{
     position: absolute;
     top:60%;
